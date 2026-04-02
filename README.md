@@ -1,12 +1,12 @@
 # Frequency
 
-Music Explorer is a web application built using React that allows users to search and discover songs and artists. The application integrates with a public music API to fetch real-time data and provides features like searching, filtering, and sorting to enhance user experience.
+Frequency is a web application that allows users to search and discover songs and artists. The application integrates with a public music API to fetch real-time data and provides features like searching, filtering, and sorting to enhance user experience.
 
 🎯 The goal of this project is to demonstrate the use of:
 
 - API integration using fetch
 - JavaScript array higher-order functions (filter, sort, map)
-- Dynamic UI rendering using React
+- Dynamic UI rendering
 - Clean and responsive user interface design
 
 🔗 API Used
@@ -21,10 +21,9 @@ Music Explorer is a web application built using React that allows users to searc
 
 🛠️ Technologies Used
 
-- React (JavaScript library for UI development)
-- JavaScript (ES6+)
+- JavaScript
 - HTML5
-- CSS3
+- CSS
 - Fetch API
 
 ⚙️ Setup and Installation
