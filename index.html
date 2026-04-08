@@ -8,7 +8,18 @@
 </head>
 <body>
 
-  <h1>Frequency</h1>
+  <h1>Frequency 🎧</h1>
+  <input type="text" class="feature" id="search-input" placeholder="Search songs...">
+  <input type="text" class="feature" id="artist-filter" placeholder="Filter by artist...">
+
+  <select class="feature" id="sort-select">
+    <option value="default">Sort</option>
+    <option value="az">A-Z</option>
+    <option value="za">Z-A</option>
+  </select>
+
+  <button class="feature" onclick="toggleTheme()"> 🌙 </button>
+
   <p id="loading-text">Loading songs...</p>
   <div id="album-container" class="album-grid"></div>
 
